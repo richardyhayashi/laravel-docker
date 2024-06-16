@@ -55,7 +55,7 @@ In Laravel src directory
 * Uncomment PostgreSQL section "RUN apk --no-cache add build-base ..." while commenting other sections in docker-compose.yam
 
 * Setp src/.env:
-    DB_CONNECTION=postgres
+    DB_CONNECTION=pgsql
     DB_HOST=postgres
     DB_PORT=5432
     DB_DATABASE=laravel

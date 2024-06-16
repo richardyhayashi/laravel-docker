@@ -12,8 +12,6 @@ services:
       - laravel
     depends_on:
       - php
-      #- postgres
-      #- mysql
 
   #postgres:
   #  image: postgres:16.3-alpine
@@ -23,7 +21,7 @@ services:
   #  ports:
   #    - ${DB_PORT_OUT}:${DB_PORT}
   #  volumes:
-  #    - db-data:/var/lib/postgresql/data/pgdata
+  #    - db-data:/var/lib/postgresql/data
   #  environment:
   #    POSTGRES_USER: ${DB_USERNAME}
   #    POSTGRES_PASSWORD: ${DB_PASSWORD}
